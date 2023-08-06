@@ -1,0 +1,26 @@
+.message__btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    border: none;
+    border-radius: 8px;
+    color: $fiil-gray-dark;
+    background-color: $bg-gray-dark;
+    padding-right: 10px;
+}
+.message__wrapper-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 40px;
+    background-color: $bg-gray-message;
+    margin-right: 10px;
+    border-radius: 8px 0 0 8px;
+}
+.message__icon {
+    fill: $fiil-gray-dark;
+}

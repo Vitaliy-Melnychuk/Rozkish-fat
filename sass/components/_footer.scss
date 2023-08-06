@@ -1,0 +1,40 @@
+.footer {
+    background-color: $bg-footer;
+}
+.footer__social-wrapper {
+    display:flex;
+    justify-content: center;
+}
+.footer__list {
+    display: flex;
+}
+.footer__item {
+    margin-left: 10px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+.footer__link {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid $brand-white;
+
+    &:focus,&:hover {
+        background-color: $brand-white;
+    }
+
+    &:focus .footer__icon,&:hover .footer__icon {
+        fill: $brand-black;
+    }
+}
+.footer__icon {
+    fill: $brand-white;
+}
+.footer__text {
+    margin-top: 20px;
+    font-size: 12px;
+}
