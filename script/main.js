@@ -37,8 +37,8 @@ const categories = {
         {name: 'v2021_001', data: 'id="v2021"', description: 'Колекцiя 2021<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2021'},
     ],
     obrizni: [
-        {name: 'obr1x_1001', data: 'id="obr1x"', description: 'Колекцiя євростиль<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні євростиль', folder: 'v2020'},
-        {name: 'obr2x_1025', data: 'id="obr2x"', description: 'Колекцiя на гребні<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні на гребні', folder: 'v2020'},
+        {name: 'obr1x_1001', data: 'id="obr1x"', description: 'Колекцiя євростиль<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні євростиль', folder: 'obr1x'},
+        {name: 'obr2x_1025', data: 'id="obr2x"', description: 'Колекцiя на гребні<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні на гребні', folder: 'obr2x'},
     ],
     plv3x: [
         {name: 'plv3x_1503', data: 'id="plv3x_1503"', description: '', descriptionStyle: '#1503', folder: 'plv3x', one: `1.5*1.5 - 11$`, two: `2*1.5 - 15$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
