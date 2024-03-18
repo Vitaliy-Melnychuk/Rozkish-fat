@@ -17,9 +17,9 @@ const categories = {
         {name: 's2020_001', data: 'id="s2020"', description: 'Колекция 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Свадебные платья', folder: 's2020'},
     ],
     plotnaVyshyvka: [
-        {name: 'plv1x_5017', data: 'id="plv1x"', description: 'Колекция (1x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv1x'},
-        {name: 'plv2x_1502', data: 'id="plv2x"', description: 'Колекция (2x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv2x'},
-        {name: 'plv3x_1510', data: 'id="plv3x"', description: 'Колекция (3x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv3x'},
+        {name: 'plv1x_5017', data: 'id="plv1x"', description: 'Колекцiя (1x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv1x'},
+        {name: 'plv2x_1502', data: 'id="plv2x"', description: 'Колекцiя (2x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv2x'},
+        {name: 'plv3x_1510', data: 'id="plv3x"', description: 'Колекцiя (3x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv3x'},
     ],
     emirStyle: [
         {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
@@ -32,13 +32,13 @@ const categories = {
         {name: 'v2021_001', data: 'id="v2021"', description: 'Колекция 2021<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2021'},
     ],
     biser: [
-        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
-        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
-        {name: 'v2021_001', data: 'id="v2021"', description: 'Колекция 2021<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2021'},
+        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекцiя 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
+        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекцiя 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
+        {name: 'v2021_001', data: 'id="v2021"', description: 'Колекцiя 2021<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2021'},
     ],
     obrizni: [
-        {name: 'obr1x_1001', data: 'id="obr1x"', description: 'Колекция 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні євростиль', folder: 'v2020'},
-        {name: 'obr2x_1025', data: 'id="obr2x"', description: 'Колекция 2020<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні на гребні', folder: 'v2020'},
+        {name: 'obr1x_1001', data: 'id="obr1x"', description: 'Колекцiя євростиль<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні євростиль', folder: 'v2020'},
+        {name: 'obr2x_1025', data: 'id="obr2x"', description: 'Колекцiя на гребні<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні на гребні', folder: 'v2020'},
     ],
     plv3x: [
         {name: 'plv3x_1503', data: 'id="plv3x_1503"', description: '', descriptionStyle: '#1503', folder: 'plv3x', one: `1.5*1.5 - 11$`, two: `2*1.5 - 15$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
@@ -106,6 +106,14 @@ const categories = {
         {name: 'plv1x_5035', data: 'id="plv1x_5035"', description: '', descriptionStyle: '#5035', folder: 'plv1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
         {name: 'plv1x_5036', data: 'id="plv1x_5036"', description: '', descriptionStyle: '#5036', folder: 'plv1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
         {name: 'plv1x_5039', data: 'id="plv1x_5039"', description: '', descriptionStyle: '#5039', folder: 'plv1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+    ],
+    obr1x: [
+        {name: 'obr1x_1001', data: 'id="obr1x_1001"', description: '', descriptionStyle: '#1001', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+        {name: 'obr1x_1003', data: 'id="obr1x_1003"', description: '', descriptionStyle: '#1003', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+    ],
+    obr2x: [
+        {name: 'obr2x_1025', data: 'id="obr2x_1025"', description: '', descriptionStyle: '#1001', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+        {name: 'obr2x_1014', data: 'id="obr2x_1014"', description: '', descriptionStyle: '#1014', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
     ],
     v2021: [
         {name: 'v2021_001', data: 'id="v2021_001"', description: '150$', descriptionStyle: 'v2021_001', folder: 'v2021'},
