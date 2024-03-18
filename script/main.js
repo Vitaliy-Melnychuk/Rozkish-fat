@@ -37,8 +37,8 @@ const categories = {
         {name: 'v2021_001', data: 'id="v2021"', description: 'Колекцiя 2021<span class="catalog__description-letter">г</span>', descriptionStyle: 'Вечерние платья', folder: 'v2021'},
     ],
     obrizni: [
-        {name: 'obr1x_1001', data: 'id="obr1x"', description: 'Колекцiя євростиль<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні євростиль', folder: 'obr1x'},
-        {name: 'obr2x_1025', data: 'id="obr2x"', description: 'Колекцiя на гребні<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні на гребні', folder: 'obr2x'},
+        {name: 'obr1x_1001', data: 'id="obr1x"', description: '<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні євростиль', folder: 'obr1x'},
+        {name: 'obr2x_1025', data: 'id="obr2x"', description: '<span class="catalog__description-letter">г</span>', descriptionStyle: 'Обрізні на гребні', folder: 'obr2x'},
     ],
     plv3x: [
         {name: 'plv3x_1503', data: 'id="plv3x_1503"', description: '', descriptionStyle: '#1503', folder: 'plv3x', one: `1.5*1.5 - 11$`, two: `2*1.5 - 15$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
@@ -109,33 +109,15 @@ const categories = {
     ],
     obr1x: [
         {name: 'obr1x_1001', data: 'id="obr1x_1001"', description: '', descriptionStyle: '#1001', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+        {name: 'obr1x_1002', data: 'id="obr1x_1002"', description: '', descriptionStyle: '#1002', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
         {name: 'obr1x_1003', data: 'id="obr1x_1003"', description: '', descriptionStyle: '#1003', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
     ],
     obr2x: [
-        {name: 'obr2x_1025', data: 'id="obr2x_1025"', description: '', descriptionStyle: '#1001', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
-        {name: 'obr2x_1014', data: 'id="obr2x_1014"', description: '', descriptionStyle: '#1014', folder: 'obr1x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
-    ],
-    v2021: [
-        {name: 'v2021_001', data: 'id="v2021_001"', description: '150$', descriptionStyle: 'v2021_001', folder: 'v2021'},
-        {name: 'v2021_002', data: 'id="v2021_002"', description: '160$', descriptionStyle: 'v2021_002', folder: 'v2021'},
-        {name: 'v2021_007', data: 'id="v2021_007"', description: '170$', descriptionStyle: 'v2021_007', folder: 'v2021'},
-        {name: 'v2021_004', data: 'id="v2021_004"', description: '180$', descriptionStyle: 'v2021_004', folder: 'v2021'},
-        {name: 'v2021_005', data: 'id="v2021_005"', description: '180$', descriptionStyle: 'v2021_005', folder: 'v2021'},
-        {name: 'v2021_006', data: 'id="v2021_006"', description: '180$', descriptionStyle: 'v2021_006', folder: 'v2021'},
-    ],
-    s2020: [
-        {name: 's2020_001', data: 'id="s2020_001"', description: '150$', descriptionStyle: 'Свадебные платья', folder: 's2020'},
-        {name: 's2020_002', data: 'id="s2020_002"', description: '160$', descriptionStyle: 'Свадебные платья', folder: 's2020'},
-        {name: 's2020_003', data: 'id="s2020_003"', description: '170$', descriptionStyle: 'Свадебные платья', folder: 's2020'},
-        {name: 's2020_004', data: 'id="s2020_004"', description: '180$', descriptionStyle: 'Свадебные платья', folder: 's2020'},
-        {name: 's2020_005', data: 'id="s2020_005"', description: '180$', descriptionStyle: 'Свадебные платья', folder: 's2020'},
-    ],
-    v2020: [
-        {name: 'v2020_001', data: 'id="v2020_001"', description: '150$', descriptionStyle: 'Свадебные платья', folder: 'v2020'},
-        {name: 'v2020_002', data: 'id="v2020_002"', description: '160$', descriptionStyle: 'Свадебные платья', folder: 'v2020'},
-        {name: 'v2020_003', data: 'id="v2020_003"', description: '170$', descriptionStyle: 'Свадебные платья', folder: 'v2020'},
-        {name: 'v2020_004', data: 'id="v2020_004"', description: '180$', descriptionStyle: 'Свадебные платья', folder: 'v2020'},
-        {name: 'v2020_005', data: 'id="v2020_005"', description: '180$', descriptionStyle: 'Свадебные платья', folder: 'v2020'},
+        {name: 'obr2x_1009', data: 'id="obr2x_1009"', description: '', descriptionStyle: '#1009', folder: 'obr2x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+        {name: 'obr2x_1014', data: 'id="obr2x_1014"', description: '', descriptionStyle: '#1014', folder: 'obr2x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+        {name: 'obr2x_1015', data: 'id="obr2x_1015"', description: '', descriptionStyle: '#1015', folder: 'obr2x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+        {name: 'obr2x_1016', data: 'id="obr2x_1016"', description: '', descriptionStyle: '#1016', folder: 'obr2x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
+        {name: 'obr2x_1025', data: 'id="obr2x_1025"', description: '', descriptionStyle: '#1025', folder: 'obr2x', one: `1.5*1.5 - 4$`, two: `2*1.5 - 6$`, three: `2.6*1.5 - 8$`, four: `3*1.5 - 10$`},
     ],
 };
 
