@@ -12,9 +12,9 @@ const categories = {
         {name: 's2021_010', data: 'id="s2021_010"', description: '', descriptionStyle: 's2021_010', folder: 'maingallery'},
     ],
     compVyshyvka: [
-        {name: 'com1x_1441', data: 'id="com1x"', description: 'Колекцiя (1x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Свадебные платья', folder: 'com1x'},
-        {name: 'com2x_1434', data: 'id="com2x"', description: 'Колекцiя (2x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Свадебные платья', folder: 'com2x'},
-        {name: 'com3x_1409', data: 'id="com3x"', description: 'Колекцiя (3x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Свадебные платья', folder: 'com3x'},
+        {name: 'com1x_1441', data: 'id="com1x"', description: 'Колекцiя (1x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Контурна вишивка', folder: 'com1x'},
+        {name: 'com2x_1434', data: 'id="com2x"', description: 'Колекцiя (2x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Контурна вишивка', folder: 'com2x'},
+        {name: 'com3x_1409', data: 'id="com3x"', description: 'Колекцiя (3x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Контурна вишивка', folder: 'com3x'},
     ],
     plotnaVyshyvka: [
         {name: 'plv1x_5017', data: 'id="plv1x"', description: 'Колекцiя (1x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv1x'},
@@ -160,7 +160,7 @@ const categories = {
         {name: 'com2x_1403', data: 'id="com2x_1403"', description: '', descriptionStyle: '#1403', folder: 'com2x', one: `1.5*1.5 - 5$`, two: `2*1.5 - 7$`, three: `2.6*1.5 - 9$`, four: `3*1.5 - 10$`},
         {name: 'com2x_1402', data: 'id="com2x_1402"', description: '', descriptionStyle: '#1402', folder: 'com2x', one: `1.5*1.5 - 5$`, two: `2*1.5 - 7$`, three: `2.6*1.5 - 9$`, four: `3*1.5 - 10$`},
     ],
-    com1x: [
+    com3x: [
         {name: 'com3x_1424', data: 'id="com3x_1424"', description: '', descriptionStyle: '#1424', folder: 'com3x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
         {name: 'com3x_1416', data: 'id="com3x_1416"', description: '', descriptionStyle: '#1416', folder: 'com3x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
         {name: 'com3x_1409', data: 'id="com3x_1409"', description: '', descriptionStyle: '#1409', folder: 'com3x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
