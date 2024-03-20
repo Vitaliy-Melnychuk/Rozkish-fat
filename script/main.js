@@ -22,9 +22,8 @@ const categories = {
         {name: 'plv3x_1510', data: 'id="plv3x"', description: 'Колекцiя (3x)<span class="catalog__description-letter"></span>', descriptionStyle: 'Плотна вишивка', folder: 'plv3x'},
     ],
     emirStyle: [
-        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter"></span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
-        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter"></span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
-        {name: 'v2021_001', data: 'id="v2021"', description: 'Колекция 2021<span class="catalog__description-letter"></span>', descriptionStyle: 'Вечерние платья', folder: 'v2021'},
+        {name: 'emi1x_1071', data: 'id="emi1x"', description: '<span class="catalog__description-letter"></span>', descriptionStyle: 'Еміратськi на гребні', folder: 'emi1x'},
+        {name: 'emi2x_1075', data: 'id="emi2x"', description: '<span class="catalog__description-letter"></span>', descriptionStyle: 'Еміратськi кругові', folder: 'emi2x'},
     ],
     krugevo: [
         {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter"></span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
@@ -167,6 +166,26 @@ const categories = {
         {name: 'com3x_1408', data: 'id="com3x_1408"', description: '', descriptionStyle: '#1408', folder: 'com3x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
         {name: 'com3x_1404', data: 'id="com3x_1404"', description: '', descriptionStyle: '#1404', folder: 'com3x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
         {name: 'com3x_1401', data: 'id="com3x_1401"', description: '', descriptionStyle: '#1401', folder: 'com3x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+    ],
+    emi1x: [
+        {name: 'emi1x_1084', data: 'id="emi1x_1084"', description: '', descriptionStyle: '#1084', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1083', data: 'id="emi1x_1083"', description: '', descriptionStyle: '#1083', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1079', data: 'id="emi1x_1079"', description: '', descriptionStyle: '#1079', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1078', data: 'id="emi1x_1078"', description: '', descriptionStyle: '#1078', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1077', data: 'id="emi1x_1077"', description: '', descriptionStyle: '#1077', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1074', data: 'id="emi1x_1074"', description: '', descriptionStyle: '#1074', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1071', data: 'id="emi1x_1071"', description: '', descriptionStyle: '#1071', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1070', data: 'id="emi1x_1070"', description: '', descriptionStyle: '#1070', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1069', data: 'id="emi1x_1069"', description: '', descriptionStyle: '#1069', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1068', data: 'id="emi1x_1068"', description: '', descriptionStyle: '#1068', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1067', data: 'id="emi1x_1067"', description: '', descriptionStyle: '#1067', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+        {name: 'emi1x_1057', data: 'id="emi1x_1057"', description: '', descriptionStyle: '#1057', folder: 'emi1x', one: `1.5*1.5 - 7$`, two: `2*1.5 - 10$`, three: `2.6*1.5 - 18$`, four: `3*1.5 - 22$`},
+    ],
+    emi2x: [
+        {name: 'emi2x_1072', data: 'id="emi2x_1072"', description: '', descriptionStyle: '#1072', folder: 'emi2x', one: `3*3 - 50$`, two: ``, three: ``, four: ``},
+        {name: 'emi2x_1075', data: 'id="emi2x_1075"', description: '', descriptionStyle: '#1075', folder: 'emi2x', one: `3*3 - 50$`, two: ``, three: ``, four: ``},
+        {name: 'emi2x_1076', data: 'id="emi2x_1076"', description: '', descriptionStyle: '#1076', folder: 'emi2x', one: `3*3 - 50$`, two: ``, three: ``, four: ``},
+        {name: 'emi2x_1085', data: 'id="emi2x_1085"', description: '', descriptionStyle: '#1085', folder: 'emi2x', one: `3*3 - 50$`, two: ``, three: ``, four: ``},
     ],
 };
 
