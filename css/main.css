@@ -333,11 +333,13 @@ img {
 }
 
 .catalog-back__btn {
+  border-radius: 10%;
   background-color: #FFFFFF;
   letter-spacing: 0.1em;
-  font-size: 30px;
+  font-size: 14px;
   color: #000000;
   margin: 10px;
+  padding: 10px;
 }
 
 .message__btn {
