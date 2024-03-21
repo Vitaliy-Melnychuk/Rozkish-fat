@@ -364,6 +364,13 @@ function createPhotoDescriptionTwo (nameFolder, idName) {
             return `
                 <li class="full-description__item">
                     <div class="full-description__wrapper">
+                        <button class="mobile-menu__btn active-element" data-id="${createElement.folder}">back
+                            <svg class="mobile-menu__svg" width="20">
+                                <use href="./images/sprite.svg#forward-arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="full-description__wrapper">
                         <a class="catalog__link">
                             <img 
                             class="catalog__img" 
