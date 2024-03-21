@@ -332,6 +332,14 @@ img {
      object-fit: cover;
 }
 
+.catalog-back__btn {
+  background-color: #FFFFFF;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  color: #000000;
+  margin: 10px;
+}
+
 .message__btn {
   cursor: pointer;
   display: -webkit-box;
