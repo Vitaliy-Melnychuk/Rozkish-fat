@@ -259,10 +259,10 @@ const categories = {
         {name: 'bis2x_2528', data: 'id="bis2x_2528"', description: '', descriptionStyle: '#2528', folder: 'bis2x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
     ],
     bis3x: [
-        {name: 'bis3x_2071', data: 'id="bis3x_2047"', description: '', descriptionStyle: '#2071', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
-        {name: 'bis3x_2072', data: 'id="bis3x_2055"', description: '', descriptionStyle: '#2072', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
-        {name: 'bis3x_2079', data: 'id="bis3x_2082"', description: '', descriptionStyle: '#2079', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
-        {name: 'bis3x_2550', data: 'id="bis3x_2500"', description: '', descriptionStyle: '#2550', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
+        {name: 'bis3x_2071', data: 'id="bis3x_2071"', description: '', descriptionStyle: '#2071', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
+        {name: 'bis3x_2072', data: 'id="bis3x_2072"', description: '', descriptionStyle: '#2072', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
+        {name: 'bis3x_2079', data: 'id="bis3x_2079"', description: '', descriptionStyle: '#2079', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
+        {name: 'bis3x_2550', data: 'id="bis3x_2550"', description: '', descriptionStyle: '#2550', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
     ],
 };
 
