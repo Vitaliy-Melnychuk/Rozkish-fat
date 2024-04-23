@@ -26,9 +26,7 @@ const categories = {
         {name: 'emi2x_1075', data: 'id="emi2x"', description: 'Колекцiя 2<span class="catalog__description-letter"></span>', descriptionStyle: 'Еміратськi кругові', folder: 'emi2x'},
     ],
     krugevo: [
-        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter"></span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
-        {name: 'v2020_001', data: 'id="v2020"', description: 'Колекция 2020<span class="catalog__description-letter"></span>', descriptionStyle: 'Вечерние платья', folder: 'v2020'},
-        {name: 'v2021_001', data: 'id="v2021"', description: 'Колекция 2021<span class="catalog__description-letter"></span>', descriptionStyle: 'Вечерние платья', folder: 'v2021'},
+        {name: 'kru1x_3135', data: 'id="kru1x"', description: 'Колекция 1<span class="catalog__description-letter"></span>', descriptionStyle: 'Кружевні фати', folder: 'kru1x'},
     ],
     biser: [
         {name: 'bis1x_2520', data: 'id="bis1x"', description: 'Колекцiя 1<span class="catalog__description-letter"></span>', descriptionStyle: 'Вишивка бісером', folder: 'bis1x'},
@@ -263,6 +261,11 @@ const categories = {
         {name: 'bis3x_2072', data: 'id="bis3x_2072"', description: '', descriptionStyle: '#2072', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
         {name: 'bis3x_2079', data: 'id="bis3x_2079"', description: '', descriptionStyle: '#2079', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
         {name: 'bis3x_2550', data: 'id="bis3x_2550"', description: '', descriptionStyle: '#2550', folder: 'bis3x', one: `1.5*1.5 - 6$`, two: `2*1.5 - 8$`, three: `2.6*1.5 - 10$`, four: `3*1.5 - 10$`},
+    ],
+    kru1x: [
+        {name: 'kru1x_3126', data: 'id="kru1x_3126"', description: '', descriptionStyle: '#3126', folder: 'kru1x', one: `1.5*1.5 - 12$`, two: `2*1.5 - 16$`, three: `2.6*1.5 - 20$`, four: `3*1.5 - 24$`},
+        {name: 'kru1x_3128', data: 'id="kru1x_3128"', description: '', descriptionStyle: '#3128', folder: 'kru1x', one: `1.5*1.5 - 15$`, two: `2*1.5 - 20$`, three: `2.6*1.5 - 25$`, four: `3*1.5 - 30$`},
+        {name: 'kru1x_3135', data: 'id="kru1x_3135"', description: '', descriptionStyle: '#3135', folder: 'kru1x', one: `1.5*1.5 - 15$`, two: `2*1.5 - 20$`, three: `2.6*1.5 - 25$`, four: `3*1.5 - 30$`},
     ],
 };
 
